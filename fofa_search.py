@@ -116,10 +116,6 @@ class FoFa:
 					
 		except Exception as e:
 			print('Error: {}'.format(e))
-		
-
-#def Search(dork):
-    
 
 if __name__ == '__main__':
 	title()
