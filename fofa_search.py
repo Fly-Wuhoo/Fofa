@@ -17,8 +17,8 @@ def title():
 class FoFa:
 	#初始化
 	def __init__(self):
-		self.mail="18850620382@139.com"
-		self.key="645e0dd0bd7e0f0428c5f6183f32036d"
+		self.mail="********@qq.com"
+		self.key="**************"
 		try:
 			self.api = fofa.Fofa(self.mail,self.key)
 			#print('ok')
