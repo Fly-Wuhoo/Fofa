@@ -8,11 +8,11 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 
 
-def title():
-	print('*-----------------------------------------*')
-	print('!  \033[36mVersion: 1.0    \033[0m')
-	print('!  \033[36m使用格式: python3 fofa_search.py    \033[0m')
-	print('*-----------------------------------------*')
+def header():
+	print('\033[34m*-----------------------------------------*\033[0m')
+	print('\033[34m!  Version: 1.0    \033[0m')
+	print('\033[34m!  使用格式: python3 fofa_search.py    \033[0m')
+	print('\033[34m*-----------------------------------------*\033[0m')
 
 class FoFa:
 	#初始化
@@ -118,7 +118,7 @@ class FoFa:
 			print('Error: {}'.format(e))
 
 if __name__ == '__main__':
-	title()
+	header()
 	dork = str(input("\033[31m请输入Fofa查询语法:\nDork >>> \033[0m")) #定义字符颜色
 	F=FoFa()
 	F.Search(dork) 
